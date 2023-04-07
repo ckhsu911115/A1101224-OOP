@@ -55,25 +55,25 @@ public class A1101224_0331 {
         Scanner scanner = new Scanner(System.in);
 
         for (Animal animal : animals) {
-            System.out.print("请输入" + animal.getName() + " 的X分鐘：");
+            System.out.print("請输入" + animal.getName() + " 的X分鐘：");
             double x_animal = scanner.nextDouble();
-            System.out.print("请输入" + animal.getName() + "的Y加速度(亦可不輸入，請輸入0)：");
+            System.out.print("請输入" + animal.getName() + "的Y加速度(亦可不輸入，請輸入0)：");
             double y_animal = scanner.nextDouble();
             System.out.println(animal.getName() + "距離為" + animal.distance(x_animal, y_animal));
         }
 
         for (Human human : humans) {
-            System.out.print("请输入" + human.getName() + "的X分鐘：");
+            System.out.print("請输入" + human.getName() + "的X分鐘：");
             double x_human = scanner.nextDouble();
-            System.out.print("请输入" + human.getName() + "的Y加速度(亦可不輸入，請輸入0)：");
+            System.out.print("請输入" + human.getName() + "的Y加速度(亦可不輸入，請輸入0)：");
             double y_human = scanner.nextDouble();
             System.out.println(human.getName() + "距離為" + human.distance(x_human, y_human));
         }
 
         for (Snow snow : snows) {
-            System.out.print("请输入" + snow.getName() + "的X分鐘：");
+            System.out.print("請输入" + snow.getName() + "的X分鐘：");
             double x_snow = scanner.nextDouble();
-            System.out.print("请输入" + snow.getName() + "的Y加速度(亦可不輸入，請輸入0)：");
+            System.out.print("請输入" + snow.getName() + "的Y加速度(亦可不輸入，請輸入0)：");
             double y_snow = scanner.nextDouble();
             System.out.println(snow.getName() + "距離為" + snow.distance(x_snow, y_snow));
         }
