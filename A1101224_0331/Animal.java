@@ -25,9 +25,9 @@ public class Animal {
 
     public void show() {
         System.out.println("姓名：" + name);
-        System.out.println("身高：" + height + "米");
-        System.out.println("體重：" + weight + "公斤");
-        System.out.println("速度：" + speed + "公尺/分鐘");
+        System.out.println("身高：" + height + "(公尺)");
+        System.out.println("體重：" + weight + "(公斤)");
+        System.out.println("速度：" + speed + "(公尺/分鐘)");
     }
 
     public double distance(double x, double y) {
