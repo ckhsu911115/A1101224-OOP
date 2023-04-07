@@ -12,16 +12,16 @@ public class A1101224_0331 {
         showinfoo();
 
         Animal[] animals = {
-                new Animal("雪寶", 1.75, 70.0, 1.5),
-                new Animal("驢子", 1.8, 100.0, 1.2)
+                new Animal("雪寶", 1.1, 52.0, 100.0),
+                new Animal("驢子", 1.5, 99.0, 200.0)
         };
         Human[] humans = {
-                new Human("阿克", 1.85, 75.0, 1.8, "男"),
-                new Human("漢斯", 1.8, 80.0, 1.5, "男"),
-                new Human("安娜", 1.7, 60.0, 1.0, "女")
+                new Human("阿克", 1.9, 80.0, 150.0, "男"),
+                new Human("漢斯", 1.8, 78.0, 130.0, "男"),
+                new Human("安娜", 1.7, 48.0, 120.0, "女")
         };
         Snow[] snows = {
-                new Snow("愛沙", 1.75, 65.0, 1.2, "女", "Yes")
+                new Snow("愛沙", 1.7, 50.0, 120.0, "女", "Yes")
         };
 
         for (Animal a : animals) {
