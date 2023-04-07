@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class A1101224_0331_1 {
+public class A1101224_0331 {
 
     public static void showinfoo() {
         System.out.println("歡迎進入冰雪奇緣系統！");
